@@ -74,6 +74,8 @@
       <linkerOption>-headerpad</linkerOption>
       <linkerOption>-Xlinker</linkerOption>
       <linkerOption>0xFF</linkerOption>
+      <linkerOption>-Xlinker</linkerOption>
+      <linkerOption>-s</linkerOption>
       <linkerOption>-U</linkerOption>
       <linkerOption>_VAppearances_updateAppearance</linkerOption>
       <linkerOption>-undefined</linkerOption>
@@ -131,6 +133,8 @@
       <linkerOption>-headerpad</linkerOption>
       <linkerOption>-Xlinker</linkerOption>
       <linkerOption>0xFF</linkerOption>
+      <linkerOption>-Xlinker</linkerOption>
+      <linkerOption>-s</linkerOption>
       <linkerOption>-undefined</linkerOption>
       <linkerOption>dynamic_lookup</linkerOption>
 
@@ -162,6 +166,8 @@
       <linkerOption>-headerpad</linkerOption>
       <linkerOption>-Xlinker</linkerOption>
       <linkerOption>0xFF</linkerOption>
+      <linkerOption>-Xlinker</linkerOption>
+      <linkerOption>-s</linkerOption>
       <linkerOption>-undefined</linkerOption>
       <linkerOption>dynamic_lookup</linkerOption>
 

@@ -70,6 +70,10 @@
       <target value="x86_64-apple-macos10.10"/>
       <target value="arm64-apple-macos11"/>
 
+      <linkerOption>-Xlinker</linkerOption>
+      <linkerOption>-headerpad</linkerOption>
+      <linkerOption>-Xlinker</linkerOption>
+      <linkerOption>0xFF</linkerOption>
       <linkerOption>-U</linkerOption>
       <linkerOption>_VAppearances_updateAppearance</linkerOption>
       <linkerOption>-undefined</linkerOption>
@@ -123,6 +127,10 @@
       <target value="x86_64-apple-macos10.10"/>
       <target value="arm64-apple-macos11"/>
 
+      <linkerOption>-Xlinker</linkerOption>
+      <linkerOption>-headerpad</linkerOption>
+      <linkerOption>-Xlinker</linkerOption>
+      <linkerOption>0xFF</linkerOption>
       <linkerOption>-undefined</linkerOption>
       <linkerOption>dynamic_lookup</linkerOption>
 
@@ -150,6 +158,10 @@
       <target value="x86_64-apple-macos10.10"/>
       <target value="arm64-apple-macos11"/>
 
+      <linkerOption>-Xlinker</linkerOption>
+      <linkerOption>-headerpad</linkerOption>
+      <linkerOption>-Xlinker</linkerOption>
+      <linkerOption>0xFF</linkerOption>
       <linkerOption>-undefined</linkerOption>
       <linkerOption>dynamic_lookup</linkerOption>
 
@@ -174,7 +186,7 @@
       buildRoot="${builddir}"
       >
       <source base="${src}"/>
-      <source base="${src8}" release="8"/>
+<!--      <source base="${src8}" release="8"/>-->
       <source base="${src9}" release="9"/>
       <fileset dir="${resourcesdir}"/>
       <fileset dir="${jnidir}"/>
